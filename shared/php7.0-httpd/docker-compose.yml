@@ -1,0 +1,6 @@
+php70:
+    build: .
+    ports:
+        - "8002:80"
+    volumes:
+        - /var/shared/wordpress_4.4.2:/var/www/html    

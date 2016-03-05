@@ -1,0 +1,6 @@
+php56:
+    build: .
+    ports:
+        - "8001:80"
+    volumes:
+        - /var/shared/wordpress_4.4.2:/var/www/html    
